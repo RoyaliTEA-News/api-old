@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "discord.js": "^13.1.0",
+    "express": "^4.17.1",
+    "markdown-it": "^12.2.0",
+    "normalizr": "^3.6.1",
+    "xss-filters": "^1.2.7"
+  },
+  "name": "royalitea",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "sass": "^1.42.1"
+  },
+  "scripts": {
+    "sass": "sass --watch web/static/assets",
+    "dev": "nodemon index.js --ignore web/static",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "radio",
+    "radio",
+    "news"
+  ],
+  "author": "PiggyPlex#3888",
+  "license": "ISC",
+  "description": ""
+}
